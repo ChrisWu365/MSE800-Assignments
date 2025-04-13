@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="daf84a6c-c90f-4fe3-acd3-577e87708df1" name="Changes" comment="Activity Week1 - using NumPy&#10;Tasks:&#10;Print the average temperature for a week.&#10;Find the highest and lowest temperature recorded.&#10;Convert all temperatures to Fahrenheit and print the result.&#10;(Formula: F = C * 9/5 + 32)&#10;Identify the days (by index) where the temperature was above 20°C.&#10; &#10;Help syntax: &#10; &#10;import numpy as np&#10;&#10;temperatures = np.array([18.5, 19, 20, 25.0, 2, 30, 13.9])">
+    <list default="true" id="daf84a6c-c90f-4fe3-acd3-577e87708df1" name="Changes" comment="add comments">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/week1/usingNumpy.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,11 +40,48 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.main.executor": "Run",
+    "Python.usingNumpy.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master"
+    "git-widget-placeholder": "master",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Users\270709522\PycharmProjects\MSE800-Assignments\src" />
+      <recent name="D:\Users\270709522\PycharmProjects\MSE800-Assignments\week1" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="usingNumpy" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="MSE800-Assignments" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/week1" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/week1/usingNumpy.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.usingNumpy" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -69,11 +106,20 @@
       <option name="project" value="LOCAL" />
       <updated>1744499131825</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add comments">
+      <option name="closed" value="true" />
+      <created>1744502519327</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1744502519327</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Activity Week1 - using NumPy&#10;Tasks:&#10;Print the average temperature for a week.&#10;Find the highest and lowest temperature recorded.&#10;Convert all temperatures to Fahrenheit and print the result.&#10;(Formula: F = C * 9/5 + 32)&#10;Identify the days (by index) where the temperature was above 20°C.&#10; &#10;Help syntax: &#10; &#10;import numpy as np&#10;&#10;temperatures = np.array([18.5, 19, 20, 25.0, 2, 30, 13.9])" />
-    <option name="LAST_COMMIT_MESSAGE" value="Activity Week1 - using NumPy&#10;Tasks:&#10;Print the average temperature for a week.&#10;Find the highest and lowest temperature recorded.&#10;Convert all temperatures to Fahrenheit and print the result.&#10;(Formula: F = C * 9/5 + 32)&#10;Identify the days (by index) where the temperature was above 20°C.&#10; &#10;Help syntax: &#10; &#10;import numpy as np&#10;&#10;temperatures = np.array([18.5, 19, 20, 25.0, 2, 30, 13.9])" />
+    <MESSAGE value="add comments" />
+    <option name="LAST_COMMIT_MESSAGE" value="add comments" />
   </component>
 </project>

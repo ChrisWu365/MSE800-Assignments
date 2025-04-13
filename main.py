@@ -1,11 +1,15 @@
-# This is a sample Python script.
+"""
+Tasks:
+1. Print the average temperature for a week.
+2. Find the highest and lowest temperature recorded.
+3. Convert all temperatures to Fahrenheit and print the result.
+(Formula: F = C * 9/5 + 32)
+4. Identify the days (by index) where the temperature was above 20°C.
+"""
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
 import numpy as np
 
 def calctemperature():
-    # Use a breakpoint in the code line below to debug your script.
     data = np.array([18.5, 19, 20, 25.0, 2, 30, 13.9])
     avg = np.average(data)
     highest = np.amax(data)
@@ -27,5 +31,3 @@ def calctemperature():
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
     calctemperature()
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/

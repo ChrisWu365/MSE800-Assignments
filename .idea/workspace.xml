@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="daf84a6c-c90f-4fe3-acd3-577e87708df1" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/MSE800-Assignments.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/MSE800-Assignments.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="daf84a6c-c90f-4fe3-acd3-577e87708df1" name="Changes" comment="Activity Week1 - using NumPy&#10;Tasks:&#10;Print the average temperature for a week.&#10;Find the highest and lowest temperature recorded.&#10;Convert all temperatures to Fahrenheit and print the result.&#10;(Formula: F = C * 9/5 + 32)&#10;Identify the days (by index) where the temperature was above 20°C.&#10; &#10;Help syntax: &#10; &#10;import numpy as np&#10;&#10;temperatures = np.array([18.5, 19, 20, 25.0, 2, 30, 13.9])">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
@@ -18,6 +16,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "ChrisWu365"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/ChrisWu365/MSE800-Assignments.git",
+    "accountId": "dea1516b-040c-4d57-92ef-450f04c5d76e"
+  }
+}]]></component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 7
 }]]></component>
@@ -51,6 +61,19 @@
       <option name="presentableId" value="Default" />
       <updated>1744497313067</updated>
     </task>
+    <task id="LOCAL-00001" summary="Activity Week1 - using NumPy&#10;Tasks:&#10;Print the average temperature for a week.&#10;Find the highest and lowest temperature recorded.&#10;Convert all temperatures to Fahrenheit and print the result.&#10;(Formula: F = C * 9/5 + 32)&#10;Identify the days (by index) where the temperature was above 20°C.&#10; &#10;Help syntax: &#10; &#10;import numpy as np&#10;&#10;temperatures = np.array([18.5, 19, 20, 25.0, 2, 30, 13.9])">
+      <option name="closed" value="true" />
+      <created>1744499131825</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1744499131825</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Activity Week1 - using NumPy&#10;Tasks:&#10;Print the average temperature for a week.&#10;Find the highest and lowest temperature recorded.&#10;Convert all temperatures to Fahrenheit and print the result.&#10;(Formula: F = C * 9/5 + 32)&#10;Identify the days (by index) where the temperature was above 20°C.&#10; &#10;Help syntax: &#10; &#10;import numpy as np&#10;&#10;temperatures = np.array([18.5, 19, 20, 25.0, 2, 30, 13.9])" />
+    <option name="LAST_COMMIT_MESSAGE" value="Activity Week1 - using NumPy&#10;Tasks:&#10;Print the average temperature for a week.&#10;Find the highest and lowest temperature recorded.&#10;Convert all temperatures to Fahrenheit and print the result.&#10;(Formula: F = C * 9/5 + 32)&#10;Identify the days (by index) where the temperature was above 20°C.&#10; &#10;Help syntax: &#10; &#10;import numpy as np&#10;&#10;temperatures = np.array([18.5, 19, 20, 25.0, 2, 30, 13.9])" />
   </component>
 </project>

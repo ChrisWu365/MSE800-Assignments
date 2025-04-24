@@ -27,7 +27,6 @@ def calctemperature():
     # the index starts from 0 which means the first day of the given week
     print("4. The days (by index) where the temperature was above 20°C: ", indices)
 
-
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
     calctemperature()

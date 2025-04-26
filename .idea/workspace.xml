@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="daf84a6c-c90f-4fe3-acd3-577e87708df1" name="Changes" comment="add comments">
+    <list default="true" id="daf84a6c-c90f-4fe3-acd3-577e87708df1" name="Changes" comment="change naming of source file">
+      <change afterPath="$PROJECT_DIR$/src/week3/calc_prime_number.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/week3/code_debugging.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/week1/usingNumpy.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,21 +17,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "ChrisWu365"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;ChrisWu365&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/ChrisWu365/MSE800-Assignments.git",
-    "accountId": "dea1516b-040c-4d57-92ef-450f04c5d76e"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/ChrisWu365/MSE800-Assignments.git&quot;,
+    &quot;accountId&quot;: &quot;dea1516b-040c-4d57-92ef-450f04c5d76e&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2veEoRpI531X2otqkg19yVyxdCD" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -39,12 +40,14 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.calc_prime_number.executor": "Run",
+    "Python.code_debugging.executor": "Run",
     "Python.main.executor": "Run",
     "Python.usingNumpy.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -53,7 +56,51 @@
       <recent name="D:\Users\270709522\PycharmProjects\MSE800-Assignments\week1" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.calc_prime_number">
+    <configuration name="calc_prime_number" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="MSE800-Assignments" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/week3" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/week3/calc_prime_number.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="code_debugging" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="MSE800-Assignments" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/week3" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/week3/code_debugging.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="usingNumpy" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MSE800-Assignments" />
       <option name="ENV_FILES" value="" />
@@ -78,6 +125,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.calc_prime_number" />
+        <item itemvalue="Python.code_debugging" />
         <item itemvalue="Python.usingNumpy" />
       </list>
     </recent_temporary>
@@ -114,12 +163,21 @@
       <option name="project" value="LOCAL" />
       <updated>1744502519327</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="change naming of source file">
+      <option name="closed" value="true" />
+      <created>1744504846296</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1744504846296</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Activity Week1 - using NumPy&#10;Tasks:&#10;Print the average temperature for a week.&#10;Find the highest and lowest temperature recorded.&#10;Convert all temperatures to Fahrenheit and print the result.&#10;(Formula: F = C * 9/5 + 32)&#10;Identify the days (by index) where the temperature was above 20°C.&#10; &#10;Help syntax: &#10; &#10;import numpy as np&#10;&#10;temperatures = np.array([18.5, 19, 20, 25.0, 2, 30, 13.9])" />
     <MESSAGE value="add comments" />
-    <option name="LAST_COMMIT_MESSAGE" value="add comments" />
+    <MESSAGE value="change naming of source file" />
+    <option name="LAST_COMMIT_MESSAGE" value="change naming of source file" />
   </component>
 </project>

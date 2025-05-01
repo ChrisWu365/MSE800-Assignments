@@ -20,3 +20,23 @@ Run the program using Python:
 ```
 python activity_1.py
 ```
+
+## Activity 2: Simple Student Grading System Using classes( activity_2.py )
+### Classes
+#### 1. Student Class
+Represents a single student with:
+- Attributes: student_no, name
+
+#### 2. Course Class
+Represents a single course with:
+- Attributes: course_no, name
+
+#### 3. StudentCourseGrade Class
+Represents the grade of a course for a student with:
+- Attributes: student_no, course_no, grade
+
+### How to run
+Run the program using Python: 
+```
+python activity_2.py
+```

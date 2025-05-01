@@ -40,3 +40,12 @@ Run the program using Python:
 ```
 python activity_2.py
 ```
+
+## Activity 3: rewrite below sample code (from activity w3-6) without using initializer & self (if it is possible?)( activity_3.py )
+Instance attributes can not be accessed without self key word, so the given number has to be passed into the display method as an input. Method in a class can be accessed by a classmethod method.
+
+### How to run
+Run the program using Python: 
+```
+python activity_3.py
+```

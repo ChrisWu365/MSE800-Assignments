@@ -42,4 +42,4 @@ def update_user_name(user_id, user_name):
     cursor.execute("UPDATE USERS SET NAME = ? WHERE ID = ?", (user_name, user_id))
     conn.commit()
     conn.close()
-    print("User name updated.")
+    print(f"{cursor.rowcount} user name updated.")

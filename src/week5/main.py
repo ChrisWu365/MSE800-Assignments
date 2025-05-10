@@ -31,7 +31,7 @@ def menu_course():
 
 def menu_user_course():
     print("\n==== User Course Manager ====")
-    print("1. Add a course to a user")
+    print("1. Add a user to a course")
     print("2. Search All courses selected by user name")
     print("3. Search All Users who have selected the course by course ID")
     print("4. Exit")

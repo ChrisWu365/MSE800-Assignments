@@ -11,6 +11,7 @@ Add one more Table "course" (name, ID and unit columns ) with two functionality 
 from database import create_table
 from user_manager import add_user, view_users, search_user, delete_user, update_user_name
 from course_manager import add_course, view_courses, search_course, delete_course, update_course_name
+from user_course_manager import add_user_course, view_courses_by_user_name, view_users_by_course_id
 
 def menu():
     print("\n==== User Manager ====")
@@ -26,6 +27,13 @@ def menu_course():
     print("1. Add Course")
     print("2. View All Courses")
     print("3. Search Course by Name or ID")
+    print("4. Exit")
+
+def menu_user_course():
+    print("\n==== User Course Manager ====")
+    print("1. Add a course to a user")
+    print("2. Search All courses selected by user name")
+    print("3. Search All Users who have selected the course by course ID")
     print("4. Exit")
 
 def main():
@@ -75,6 +83,29 @@ def main():
             courses = search_course(name_or_id)
             for course in courses:
                 print(course)
+        elif choice == '4':
+            print("Goodbye!")
+            break
+        else:
+            print("Invalid choice, try again.")
+
+    while True:
+        menu_user_course()
+        choice = input("Select an option (1-4): ")
+        if choice == '1':
+            user_id = input("Enter user id: ")
+            course_id = input("Enter course id: ")
+            add_user_course(user_id, course_id)
+        elif choice == '2':
+            user_name = input("Enter user name to search selected courses: ")
+            courses = view_courses_by_user_name(user_name)
+            for course in courses:
+                print(course)
+        elif choice == '3':
+            course_id = input("Enter course ID to search attended users: ")
+            users = view_users_by_course_id(course_id)
+            for user in users:
+                print(user)
         elif choice == '4':
             print("Goodbye!")
             break

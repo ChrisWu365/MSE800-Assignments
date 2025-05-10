@@ -5,7 +5,7 @@ def add_user_course(user_id, course_id):
     conn = create_connection()
     cursor = conn.cursor()
     try:
-        cursor.execute("INSERT INTO user_course (user_id, course_id) VALUES (?, ?)", (user_id, course_id))
+        cursor.execute("INSERT OR IGNORE INTO user_course (user_id, course_id) VALUES (?, ?)", (user_id, course_id))
         conn.commit()
         print(" Course added to user successfully.")
     except sqlite3.IntegrityError:

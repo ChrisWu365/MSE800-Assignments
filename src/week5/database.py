@@ -29,7 +29,8 @@ def create_table():
             user_id INTEGER,
             course_id INTEGER,
             FOREIGN KEY(user_id) REFERENCES users(id),
-            FOREIGN KEY(course_id) REFERENCES course(id)
+            FOREIGN KEY(course_id) REFERENCES course(id),
+            UNIQUE(user_id, course_id)
         );
     ''')
     conn.commit()

@@ -21,12 +21,12 @@ class AnimalFactory(Factory):
 class DogFactory(Factory):
    
     def create_product(self, kind=None):
-        pass
+        return Dog()
  
 class CatFactory(Factory):
    
     def create_product(self, kind=None):
-        pass
+        return Cat()
  
 class Animals(ABC):
  
@@ -52,10 +52,17 @@ class Cat(Animals):
  
  
 # client
-# there is nothing in create_product method of DogFactory, so we should use AnimalFactory which creates animal based on kind input parameter
-factory = AnimalFactory()
+# create Dog instance directly
 dog = Dog()
 dog.run()
-# assign "dog" kind as input
+
+# there is nothing in create_product method of DogFactory, so we should use AnimalFactory which creates animal based on kind input parameter
+factory = AnimalFactory()
+# create Dog instance with AnimalFactory, assign "dog" kind as input
 dog = factory.create_product("dog") 
+dog.run()
+
+# create Dog instance with DogFactory
+dogFactory = DogFactory()
+dog = dogFactory.create_product()
 dog.run()

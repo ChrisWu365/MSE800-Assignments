@@ -52,8 +52,10 @@ class Cat(Animals):
  
  
 # client
+# there is nothing in create_product method of DogFactory, so we should use AnimalFactory which creates animal based on kind input parameter
 factory = AnimalFactory()
 dog = Dog()
 dog.run()
+# assign "dog" kind as input
 dog = factory.create_product("dog") 
 dog.run()

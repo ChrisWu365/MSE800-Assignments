@@ -15,14 +15,6 @@ class Dog(Animal):
     def print_d(self):
         print("This is Dog class!")
 
-class Cat(Animal):
-    def print_c(self):
-        print("This is Cat class!")
-
 dog = Dog()
 dog.print_a() # invoke method inherited from parent class(Animal)
 dog.print_d() # invoke method in Dog class
-
-cat = Cat()
-cat.print_a() # invoke method inherited from parent class(Animal)
-cat.print_c() # invoke method in Cat class

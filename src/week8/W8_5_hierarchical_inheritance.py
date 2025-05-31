@@ -7,6 +7,9 @@ class Animal:
     def make_a_noise_base(self):
         print("This is Animal class!")
 
+    def make_a_noise(self):
+        print("This is make_a_noise method in Animal class!")
+
 class Dog(Animal):
     def make_a_noise(self):
         print("This is Dog class!")

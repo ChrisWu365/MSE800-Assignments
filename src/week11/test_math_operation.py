@@ -9,7 +9,7 @@ def add(x, y):
 
 class TestMathOperation(unittest.TestCase):
     '''
-    Create a class inherited from unittest.TestCase, so the methods started with 'test' prefix in this class will be executed when running this class
+    Create a class inherited from unittest.TestCase, so the methods started with 'test' prefix will be executed when running this class
     '''
     def test_add(self):
         self.assertEqual(add(2, 3), 5)
